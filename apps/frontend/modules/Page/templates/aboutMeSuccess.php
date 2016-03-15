@@ -20,7 +20,7 @@
       <li><a href="#2011">2011</a></li>
       <li><a href="#2015">2013</a></li>
       <li><a href="#2015">2015</a></li>
-      <li><a href="#2015">2015</a></li>
+
     </ul>
     <ul id="issues">
       <li id="2007">
@@ -48,12 +48,13 @@
         <h1>2015</h1>
         <h4>株式会社ごちぽん 入社</h4>
         <?= link_to('http://gcpn.jp/', 'http://gcpn.jp/') ?>
-
-
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+        <p>
+          すごろくをベースにご当地の賞品が当たるソーシャルゲーム『ごちぽん』を運営している<br>
+          ごちぽんにサーバーサイドエンジニアとして入社しました。<br>
+          主にPHPを使い、『ごちぽん』でのイベント作成やアップデート業務を行っていました。
+        </p>
+        <p>また、独学でもPHPやJavaなどを学び、twitterのような一言掲示板なども作成していました。</p>
       </li>
-      <li></li>
-      <li></li>
     </ul>
     <div id="grad_left"></div>
     <div id="grad_right"></div>

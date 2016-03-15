@@ -4,7 +4,7 @@
 		overflow: hidden;
 		margin: 100px auto;
 		position: relative;
-		background: url('../images/dot.gif') left 45px repeat-x;
+		background: url('/images/dot.gif') left 45px repeat-x;
 	}
 		#dates {
 			width: 800px;
@@ -18,7 +18,7 @@
 				height: 50px;
 				font-size: 24px;
 				text-align: center;
-				background: url('../images/biggerdot.png') center bottom no-repeat;
+				background: url('/images/biggerdot.png') center bottom no-repeat;
 			}
 				#dates a {
 					line-height: 38px;
@@ -51,7 +51,7 @@
 					margin: 10px 30px 10px 50px;
 					background: transparent;
 					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
-					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
 					zoom: 1;
 					-webkit-transition: all 2s ease-in-out;
 					-moz-transition: all 2s ease-in-out;
@@ -87,11 +87,9 @@
 		}
 			#grad_left {
 		        left: 0;
-		        background: url('../images/grad_left.png') repeat-y;
 			}
 			#grad_right {
 		        right: 0;
-		        background: url('../images/grad_right.png') repeat-y;
 			}
 		
 		#next,
@@ -113,11 +111,11 @@
 			}
 			#next {
 				right: 0;
-				background-image: url('../images/next.png');
+				background-image: url('/images/next.png');
 			}
 			#prev {
 				left: 0;
-				background-image: url('../images/prev.png');
+				background-image: url('/images/prev.png');
 			}
 				#next.disabled,
 				#prev.disabled {
