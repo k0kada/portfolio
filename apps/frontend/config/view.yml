@@ -9,9 +9,9 @@ default:
     language:     ja
     robots:       index, follow
 
-  stylesheets:    [reset.css, text.css, 960.css, main.css]
+  stylesheets:    [reset.css, text.css, 960.css, main.css, style.css]
 
-  javascripts:    []
+  javascripts:    [jquery.min.js, jquery.timelinr-0.9.6.js]
 
   has_layout:     true
   layout:         layout
