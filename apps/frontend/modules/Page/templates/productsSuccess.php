@@ -30,6 +30,10 @@
         <td>2.4.16</td>
       </tr>
       <tr>
+        <th>DB</th>
+        <td>MySQL 5.6.29</td>
+      </tr>
+      <tr>
         <th class="arrow_box">仕様言語</th>
         <td>
           PHP 5.5.31

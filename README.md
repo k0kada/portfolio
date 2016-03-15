@@ -3,3 +3,4 @@
 * PHP 5.5.31
 * Apache/2.4.16
 * symfony1.4
+* MySQL 5.6.29
