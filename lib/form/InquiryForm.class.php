@@ -1,0 +1,85 @@
+<?
+class InquiryForm extends BaseForm
+{
+  public function configure()
+  {
+    $this->setWidgets(
+      array(
+        'name'   => new sfWidgetFormInput(
+          array(),
+          array(
+            'size'         => 30,
+            'maxlength'    => 20,
+          )
+        ),
+        'email'  => new sfWidgetFormInput(
+          array(),
+          array(
+            'size'         => 50,
+            'maxlength'    => 100,
+          )
+        ),
+        'body'   => new sfWidgetFormTextarea(
+          array(),
+          array(
+            'cols'         => 40,
+            'rows'         => 10,
+          )
+        ),
+      )
+    );
+
+    $this->setValidators(
+      array(
+        'name'   => new sfValidatorString(
+          array(
+            'required' => true,
+            'max_length' => 20,
+          ),
+          array(
+            'required' => '未入力',
+            'max_length' => '20文字以内で入力してください',
+          )
+        ),
+        'email'  => new sfValidatorEmail(
+          array(
+            'required' => true,
+          ),
+          array(
+            'required' => '未入力',
+            'invalid'  => '正しいメールアドレスを入力してください',
+          )
+        ),
+        'body'   => new sfValidatorString(
+          array(
+            'required' => true,
+            'max_length' => 1000,
+          ),
+          array(
+            'required' => '未入力',
+            'max_length' => '1000文字以内で入力してください',
+          )
+        ),
+      )
+    );
+    $this->widgetSchema->setNameFormat('inquiry[%s]');
+    $this->widgetSchema->setLabels(
+      array(
+        'name'   => 'お名前',
+        'email'  => 'メールアドレス',
+        'body'   => 'お問い合わせ内容',
+      )
+    );
+  }
+
+  public function send(sfContext $context, $to, $subject)
+  {
+    $action = $context->getActionStack()->getLastEntry()->getActionInstance();
+    $body   = $action->getPartial('InquiryBody', $this->getValues());
+    $from   = $this->getValue('email');
+    if (isset($to) && isset($subject) && isset($body) && isset($from)) {
+      $mailer = $context->getMailer();
+      $mailer->composeAndSend($from, $to, $subject, $body);
+    }
+  }
+}

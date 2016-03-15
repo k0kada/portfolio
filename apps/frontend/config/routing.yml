@@ -1,0 +1,27 @@
+homepage:
+  url:      /
+  param:    { module: Page, action: show, slug: top }
+
+about_me:
+  url:      /aboutMe
+  param:    { module: Page, action: aboutMe }
+
+products:
+  url:      /products
+  param:    { module: Page, action: products }
+
+news_list:
+  url:      /news
+  param:    { module: Page, action: newsList }
+
+news_show:
+  url:      /news/:slug
+  param:    { module: Page, action: newsShow }
+
+inquiry_new:
+  url:      /inquiry/new
+  param:    { module: Inquiry, action: new }
+
+inquiry_complete:
+  url:      /inquiry/complete
+  param:    { module: Inquiry, action: complete }

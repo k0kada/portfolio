@@ -1,0 +1,30 @@
+Page:
+  TopPage:
+    title:       トップページ
+    slug:        top
+    category:    トップ
+    body:        岡田晃のポートフォリオサイトです。
+  AboutMe:
+    title:       自己紹介ページ
+    slug:        about
+    category:    自己紹介
+    body:        岡田晃についての紹介ページです。
+    author:      Koh Okada
+  Products:
+    title:       プロダクト一覧
+    slug:        products
+    category:    プロダクト
+    body:        作成したプロダクト一覧のページです。
+  NewsList:
+    title:       お知らせ一覧
+    slug:        news
+    category:    お知らせ
+
+  NewsOpenPage:
+    title:       ポートフォリオサイトを作成しました
+    slug:        20160315
+    category:    news
+    body:        |
+                   ポートフォリオサイトを作成しました。
+                   今後作成したものをこのサイトに掲載しようと思います。
+    created_at:  '2016-03-15 00:00:00'
