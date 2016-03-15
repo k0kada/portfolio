@@ -1,11 +1,9 @@
-<link href="css/style-timelinr.css" rel="stylesheet">
 <script>
-    $(function(){
-        $().timelinr({
-            arrowKeys: 'true',
-            autoPlayDirection: 'forward'
-        })
-    });
+  $(function(){
+    $().timelinr({
+      arrowKeys: 'true'
+    })
+  });
 </script>
 
 <? slot('breadcrumb') ?>
@@ -16,35 +14,63 @@
    <h2><?= $page->getTitle() ?></h2>
 </div>
 
-<div id="timeline">
-  <ul id="dates">
-      <li><a href="#2012">2012</a></li>
-      <li><a href="#2013">2013</a></li>
-      <li><a href="#2014">2014</a></li>
-  </ul>
-  <ul id="issues">
-      <li id="2012">
-          <img src="/images/1.png" width="30" height="256" /> 
-          <h1>2012年</h1>
-          <p>東京スカイツリーが開業</p>
-          <p>ロンドンオリンピック開催、史上最多のメダル獲得</p>
-          <p>ノーベル生理学・医学賞に京都大学教授山中伸弥が受賞</p>
+  <div id="timeline">
+    <ul id="dates">
+      <li><a href="#1900">1900</a></li>
+      <li><a href="#1930">1930</a></li>
+      <li><a href="#1944">1944</a></li>
+      <li><a href="#1950">1950</a></li>
+      <li><a href="#1971">1971</a></li>
+      <li><a href="#1977">1977</a></li>
+      <li><a href="#1989">1989</a></li>
+      <li><a href="#1999">1999</a></li>
+      <li><a href="#2001">2001</a></li>
+      <li><a href="#2011">2011</a></li>
+    </ul>
+    <ul id="issues">
+      <li id="1900">
+        <h1>1900</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
       </li>
-      <li id="2013">
-          <img src="/images/1.png" width="30" height="256" /> 
-          <h1>2013年</h1>
-          <p>ＴＰＰ交渉参加を表明</p>
-          <p>長嶋茂雄氏と松井秀喜氏に国民栄誉賞</p>
+      <li id="1930">
+        <h1>1930</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
       </li>
-      <li id="2014">
-          <img src="/images/1.png" width="30" height="256" /> 
-          <h1>2014年</h1>
-          <p>本田圭佑セリエＡデビュー</p>
-          <p>マー君ヤンキースへ</p>
+      <li id="1944">
+        <h1>1944</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
       </li>
-  </ul>
-  <div id="grad_left"></div>
-  <div id="grad_right"></div>
-  <a id="next">+</a>
-  <a id="prev">-</a>
-</div>
+      <li id="1950">
+        <h1>1950</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1971">
+        <h1>1971</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1977">
+        <h1>1977</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1989">
+        <h1>1989</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="1999">
+        <h1>1999</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="2001">
+        <h1>2001</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+      <li id="2011">
+        <h1>2011</h1>
+        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+      </li>
+    </ul>
+    <div id="grad_left"></div>
+    <div id="grad_right"></div>
+    <a href="#" id="next">+</a>
+    <a href="#" id="prev">-</a>
+  </div>
