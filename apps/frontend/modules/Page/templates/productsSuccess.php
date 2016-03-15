@@ -45,13 +45,6 @@
         <th>制作期間</th>
         <td>2016/03/15~2016/03/16</td>
       </tr>
-      <tr>
-        <th>ソース</th>
-        <td>
-          bitbucket<br>
-          <?= link_to('https://bitbucket.org/k0kada/portfolio','https://bitbucket.org/k0kada/portfolio') ?></td>
-  </table>
-      </tr>
     </tbody>
   </table>
 </div>
