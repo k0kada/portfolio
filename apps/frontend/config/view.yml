@@ -3,9 +3,9 @@ default:
     content-type: text/html
 
   metas:
-    title:        symfony project
-    description:  symfony project
-    keywords:     symfony, project
+    title:        kokada's portfolio
+    description:  ポートフォリオ
+    keywords:
     language:     ja
     robots:       index, follow
 
