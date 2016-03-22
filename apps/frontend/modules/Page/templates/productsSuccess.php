@@ -2,8 +2,8 @@
 $(function(){
   $('#slider1').bxSlider({
     auto:true,
-    speed:1000,
-    pause:3000,
+    speed:1500,
+    pause:4000,
     captions: true,
 
   });
