@@ -9,9 +9,9 @@ default:
     language:     ja
     robots:       index, follow
 
-  stylesheets:    [reset.css, text.css, 960.css, main.css, style.css]
+  stylesheets:    [reset.css, text.css, 960.css, main.css, timeliner.css, bxslider.css]
 
-  javascripts:    [jquery.min.js, jquery.timelinr-0.9.6.js]
+  javascripts:    [jquery.min.js, jquery.timelinr-0.9.6.js, jquery.bxslider.js]
 
   has_layout:     true
   layout:         layout

@@ -1,3 +1,16 @@
+<script>
+$(function(){
+  $('#slider1').bxSlider({
+    auto:true,
+    speed:1000,
+    pause:3000,
+    captions: true,
+
+  });
+});
+
+</script>
+
 <? slot('breadcrumb') ?>
   <?= link_to('トップ', 'homepage') ?> >
   <?= $page->getCategory() ?>
@@ -5,6 +18,22 @@
 <div id="content">
   <h2><?= $page->getTitle() ?></h2>
 </div>
+
+<div id="block">
+  <h3>アクションゲーム(アンドロイドアプリ)</h3>
+
+  <div id="slider1">
+    <div><img src="/images/jumpman/menu.png" title="menu"></div>
+    <div><img src="/images/jumpman/stage1.png" title="stage1"></div>
+    <div><img src="/images/jumpman/stage2.png" title="stage2"></div>
+    <div><img src="/images/jumpman/stage3.png" title="stage3"></div>
+    <div><img src="/images/jumpman/stage4.png" title="stage4"></div>
+    <div><img src="/images/jumpman/dialog.png" title="確認ダイアログ"></div>
+  </div>
+</div>
+
+
+
 
 <div id="block">
   <h3><?= link_to('ポートフォリオサイト', 'homepage') ?></h3>
