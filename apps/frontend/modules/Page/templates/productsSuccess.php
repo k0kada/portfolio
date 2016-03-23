@@ -20,7 +20,19 @@ $(function(){
 </div>
 
 <div id="block">
-  <h3>アクションゲーム(アンドロイドアプリ)</h3>
+  <h3>アクションゲーム(Androidアプリ)</h3>
+
+  <div id="frame">
+    今回初めてAndroidアプリの制作に挑戦し、Android Studioを使いアクションゲームを作成いたしました。<br>
+    Javaについては独学で使ったことがあり、今回の制作ではライフサイクルなどのAndroidの仕様について理解することを重点的に行いました。<br><br>
+    ゲーム内容としては、ジャンプで障害物をかわしていくアクションゲームになります。<br>
+    このゲームでは遊べるステージを4つ用意し、<br>
+    ・ステージ１では、スクロールしてくる地面の段差を上手くジャンプで避けるステージ<br>
+    ・ステージ２では、その地面に穴を追加し穴と段差に落ちないようにするステージ<br>
+    ・ステージ３では、上の画面にも地面を作成しタッチの長さを上手く調整してジャンプするステージ<br>
+    ・ステージ４では、敵オブジェクトを配置し敵にぶつからないにするステージ<br>
+    として遊べるゲームとして作成いたしました。
+  </div>
 
   <div id="slider1">
     <div><img src="/images/jumpman/menu.png" title="menu"></div>
@@ -30,9 +42,37 @@ $(function(){
     <div><img src="/images/jumpman/stage4.png" title="stage4"></div>
     <div><img src="/images/jumpman/dialog.png" title="確認ダイアログ"></div>
   </div>
+
+  <table class="spec">
+    <tbody>
+      <tr>
+        <th class="arrow_box">使用言語</div></th>
+        <td>Java</td>
+      </tr>
+      <tr>
+        <th>IDE</th>
+        <td>Android Studio</td>
+      </tr>
+      <tr>
+        <th>デバッグ実機</th>
+        <td>Galaxy Note3</td>
+      </tr>
+      <tr>
+        <th>制作期間</th>
+        <td>
+          2016/03/17~2016/03/21<br>
+          （5日）
+        </td>
+      </tr>
+      <tr>
+        <th>GitHub</th>
+        <td>
+          <?= link_to("https://github.com/k0kada/jumpMan", "https://github.com/k0kada/jumpMan") ?>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-
-
 
 
 <div id="block">
@@ -63,7 +103,7 @@ $(function(){
         <td>MySQL 5.6.29</td>
       </tr>
       <tr>
-        <th class="arrow_box">仕様言語</th>
+        <th>使用言語</th>
         <td>
           PHP 5.5.31
         </td>
@@ -76,7 +116,16 @@ $(function(){
       </tr>
       <tr>
         <th>制作期間</th>
-        <td>2016/03/15~2016/03/16</td>
+        <td>
+          2016/03/15~2016/03/16<br>
+          （１日）
+        </td>
+      </tr>
+      <tr>
+        <th>GitHub</th>
+        <td>
+          <?= link_to("https://github.com/k0kada/portfolio", "https://github.com/k0kada/portfolio") ?>
+        </td>
       </tr>
     </tbody>
   </table>
