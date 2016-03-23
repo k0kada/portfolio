@@ -20,7 +20,7 @@ $(function(){
 </div>
 
 <div id="block">
-  <h3>アクションゲーム(Androidアプリ)</h3>
+  <h3 id="jumpman">アクションゲーム(Androidアプリ)</h3>
 
   <div id="frame">
     今回初めてAndroidアプリの制作に挑戦し、Android Studioを使いアクションゲームを作成いたしました。<br>
@@ -76,7 +76,7 @@ $(function(){
 
 
 <div id="block">
-  <h3><?= link_to('ポートフォリオサイト', 'homepage') ?></h3>
+  <h3 id="portfolio"><?= link_to('ポートフォリオサイト', 'homepage') ?></h3>
   <div id="frame">
     このポートフォリオサイトを作成する上で、サーバーの立ち上げから制作を行いました。<br>
     今回初めての試みだったのですが、PHPやApacheの導入をはじめ、
