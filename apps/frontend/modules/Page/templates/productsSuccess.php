@@ -4,8 +4,7 @@ $(function(){
     auto:true,
     speed:1500,
     pause:4000,
-    captions: true,
-
+    captions: true
   });
 });
 
@@ -18,6 +17,61 @@ $(function(){
 <div id="content">
   <h2><?= $page->getTitle() ?></h2>
 </div>
+
+<!--<div id="block">
+  <h3 id="bbs">掲示板</h3>
+
+  <div id="frame">
+    今回初めてAndroidアプリの制作に挑戦し、Android Studioを使いアクションゲームを作成いたしました。<br>
+    Javaについては独学で使ったことがあり、今回の制作ではライフサイクルなどのAndroidの仕様について理解することを重点的に行いました。<br><br>
+    ゲーム内容としては、ジャンプで障害物をかわしていくアクションゲームになります。<br>
+    このゲームでは遊べるステージを4つ用意し、<br>
+    ・ステージ１では、スクロールしてくる地面の段差を上手くジャンプで避けるステージ<br>
+    ・ステージ２では、その地面に穴を追加し穴と段差に落ちないようにするステージ<br>
+    ・ステージ３では、上の画面にも地面を作成しタッチの長さを上手く調整してジャンプするステージ<br>
+    ・ステージ４では、敵オブジェクトを配置し敵にぶつからないにするステージ<br>
+    として遊べるゲームとして作成いたしました。
+  </div>
+
+  <div id="slider1">
+    <div><img src="/sf14/web/images/jumpman/menu.png" title="menu"></div>
+    <div><img src="/sf14/web/images/jumpman/stage1.png" title="stage1"></div>
+    <div><img src="/sf14/web/images/jumpman/stage2.png" title="stage2"></div>
+    <div><img src="/sf14/web/images/jumpman/stage3.png" title="stage3"></div>
+    <div><img src="/sf14/web/images/jumpman/stage4.png" title="stage4"></div>
+    <div><img src="/sf14/web/images/jumpman/dialog.png" title="確認ダイアログ"></div>
+  </div>
+
+  <table class="spec">
+    <tbody>
+      <tr>
+        <th class="arrow_box">使用言語</div></th>
+        <td>Java</td>
+      </tr>
+      <tr>
+        <th>IDE</th>
+        <td>Android Studio</td>
+      </tr>
+      <tr>
+        <th>デバッグ実機</th>
+        <td>Galaxy Note3</td>
+      </tr>
+      <tr>
+        <th>制作期間</th>
+        <td>
+          2016/03/17~2016/03/21<br>
+          （5日）
+        </td>
+      </tr>
+      <tr>
+        <th>GitHub</th>
+        <td>
+          <?= link_to("https://github.com/k0kada/jumpMan", "https://github.com/k0kada/jumpMan") ?>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>-->
 
 <div id="block">
   <h3 id="jumpman">アクションゲーム(Androidアプリ)</h3>

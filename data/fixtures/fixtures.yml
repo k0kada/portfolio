@@ -27,7 +27,7 @@ Page:
     body:        |
                    ポートフォリオサイトを作成しました。
                    今後作成したものをこのサイトに掲載しようと思います。
-                   <a href='http://ec2-54-238-176-178.ap-northeast-1.compute.amazonaws.com/index.php/products#portfolio'>プロダクトページへ</a>
+                   <a href='http://ko-okada.net/sf14/web/index.php/products#portfolio'>プロダクトページへ</a>
     created_at:  '2016-03-15 00:00:00'
 
   NewsJumpman:
@@ -37,5 +37,5 @@ Page:
     body:        |
                    アクションゲーム(Androidアプリ)を作成しました。
                    マリオをタッチで操作しジャンプで障害物をかわしていくゲームです
-                   <a href='http://ec2-54-238-176-178.ap-northeast-1.compute.amazonaws.com/index.php/products#jumpman'>プロダクトページへ</a>
+                   <a href='http://ko-okada.net/sf14/web/index.php/products#jumpman'>プロダクトページへ</a>
     created_at:  '2016-03-23 00:00:00'
