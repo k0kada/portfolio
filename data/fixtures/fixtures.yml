@@ -41,9 +41,9 @@ Page:
     created_at:  '2016-03-23 00:00:00'
   NewsBBS:
     title:       掲示板を作成しました。
-    slug:        20160411
+    slug:        20160425
     category:    news
     body:        |
                    PHPフレームワークを使わずに掲示板を作成しました。
                    <a href='http://ko-okada.net/sf14/web/index.php/products#bbs'>プロダクトページへ</a>
-    created_at:  '2016-04-11 00:00:00'
+    created_at:  '2016-04-25 00:00:00'
