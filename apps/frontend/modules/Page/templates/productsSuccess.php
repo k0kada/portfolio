@@ -53,6 +53,12 @@ $(function(){
         </td>
       </tr>
       <tr>
+        <th>URL</th>
+        <td>
+          <?= link_to("http://ko-okada.net/datawrite", "http://ko-okada.net/datawrite") ?>
+        </td>
+      </tr>
+      <tr>
         <th>GitHub</th>
         <td>
           <?= link_to("https://github.com/k0kada/bbs", "https://github.com/k0kada/bbs") ?>
