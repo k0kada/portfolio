@@ -25,15 +25,14 @@ $(function(){
 </div>
 
 <div id="block">
-  <h3 id="bbs"><?= link_to('15スライドパズル', '/puzzle') ?>
+  <h3 id="breakout"><?= link_to('ブロック崩し', '/breakout') ?>
 </h3>
   <div id="frame">
-    JavaScriptで15スライドパズルを作成しました。<br>
-    パズルをシャッフルした時にパズルを解くことができるのかの判定に特に注力しました。<br>
-    解答可能かのアルゴリズムとしては、奇置換なのか隅置換なのかで判定しています。
+    JavaScriptでブロック崩しを作成しました。<br>
+    今回はゲームライブラリ『phina.js』を使い作成しました。<br>
   </div>
   <div align="center">
-    <iframe height="700" src="/puzzle"></iframe>
+      <iframe width="400" height="650" src="/breakout"></iframe>
   </div>
   <table class="spec">
     <tbody>
@@ -42,10 +41,37 @@ $(function(){
         <td>JavaScript</td>
       </tr>
       <tr>
-        <th>作業日数</th>
+        <th>URL</th>
         <td>
-          5日
+          <?= link_to("http://ko-okada.net/breakout", "/breakout") ?>
         </td>
+      </tr>
+      <tr>
+        <th>GitHub</th>
+        <td>
+          <?= link_to("https://github.com/k0kada/breakout", "https://github.com/k0kada/breakout") ?>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div id="block">
+  <h3 id="puzzle"><?= link_to('15スライドパズル', '/puzzle') ?>
+</h3>
+  <div id="frame">
+    JavaScriptで15スライドパズルを作成しました。<br>
+    パズルをシャッフルした時にパズルを解くことができるのかの判定に特に注力しました。<br>
+    解答可能かのアルゴリズムとしては、奇置換なのか隅置換なのかで判定しています。
+  </div>
+  <div align="center">
+      <iframe width="400" height="700" src="/puzzle"></iframe>
+  </div>
+  <table class="spec">
+    <tbody>
+      <tr>
+        <th class="arrow_box">使用言語</div></th>
+        <td>JavaScript</td>
       </tr>
       <tr>
         <th>URL</th>
@@ -84,12 +110,6 @@ $(function(){
       <tr>
         <th class="arrow_box">使用言語</div></th>
         <td>PHP</td>
-      </tr>
-      <tr>
-        <th>作業日数</th>
-        <td>
-          5日
-        </td>
       </tr>
       <tr>
         <th>URL</th>
@@ -146,12 +166,6 @@ $(function(){
         <td>Galaxy Note3</td>
       </tr>
       <tr>
-        <th>作業日数</th>
-        <td>
-          5日
-        </td>
-      </tr>
-      <tr>
         <th>GitHub</th>
         <td>
           <?= link_to("https://github.com/k0kada/jumpMan", "https://github.com/k0kada/jumpMan") ?>
@@ -196,12 +210,6 @@ $(function(){
         <th>Framework</th>
         <td>
           symfony1.4
-        </td>
-      </tr>
-      <tr>
-        <th>作業日数</th>
-        <td>
-          １日
         </td>
       </tr>
       <tr>
