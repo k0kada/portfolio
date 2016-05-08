@@ -25,7 +25,47 @@ $(function(){
 </div>
 
 <div id="block">
-  <h3 id="bbs">掲示板</h3>
+  <h3 id="bbs"><?= link_to('15スライドパズル', '/puzzle') ?>
+</h3>
+  <div id="frame">
+    JavaScriptで15スライドパズルを作成しました。<br>
+    パズルをシャッフルした時にパズルを解くことができるのかの判定に特に注力しました。<br>
+    解答可能かのアルゴリズムとしては、奇置換なのか隅置換なのかで判定しています。
+  </div>
+  <div align="center">
+    <iframe height="700" src="/puzzle"></iframe>
+  </div>
+  <table class="spec">
+    <tbody>
+      <tr>
+        <th class="arrow_box">使用言語</div></th>
+        <td>JavaScript</td>
+      </tr>
+      <tr>
+        <th>作業日数</th>
+        <td>
+          5日
+        </td>
+      </tr>
+      <tr>
+        <th>URL</th>
+        <td>
+          <?= link_to("http://ko-okada.net/puzzle", "/puzzle") ?>
+        </td>
+      </tr>
+      <tr>
+        <th>GitHub</th>
+        <td>
+          <?= link_to("https://github.com/k0kada/puzzle", "https://github.com/k0kada/puzzle") ?>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div id="block">
+  <h3 id="bbs"><?= link_to('掲示板', '/datawrite') ?>
+</h3>
   <div id="frame">
     実務ではPHPフレームワークを使っていたので、今回は使わずに掲示板を作成しました。<br>
     ログインではtwitterやFacebookなどのApiを使ってログインできるようにしました。<br>
@@ -46,10 +86,9 @@ $(function(){
         <td>PHP</td>
       </tr>
       <tr>
-        <th>制作期間</th>
+        <th>作業日数</th>
         <td>
-          2016/04/10~2016/04/14<br>
-          （5日）
+          5日
         </td>
       </tr>
       <tr>
@@ -107,10 +146,9 @@ $(function(){
         <td>Galaxy Note3</td>
       </tr>
       <tr>
-        <th>制作期間</th>
+        <th>作業日数</th>
         <td>
-          2016/03/17~2016/03/21<br>
-          （5日）
+          5日
         </td>
       </tr>
       <tr>
@@ -161,10 +199,9 @@ $(function(){
         </td>
       </tr>
       <tr>
-        <th>制作期間</th>
+        <th>作業日数</th>
         <td>
-          2016/03/15~2016/03/16<br>
-          （１日）
+          １日
         </td>
       </tr>
       <tr>
