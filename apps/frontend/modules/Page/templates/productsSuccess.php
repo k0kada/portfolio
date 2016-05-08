@@ -30,6 +30,8 @@ $(function(){
   <div id="frame">
     JavaScriptでブロック崩しを作成しました。<br>
     今回はゲームライブラリ『phina.js』を使い作成しました。<br>
+    phina.jsを利用した理由としては、enchant.js・cocos2d-x・Unityなどの機能を<br>
+    取り込んで作成されていることもありこちらを利用しました。
   </div>
   <div align="center">
       <iframe width="400" height="650" src="/breakout"></iframe>
