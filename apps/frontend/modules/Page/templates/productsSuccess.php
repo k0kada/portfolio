@@ -2,13 +2,13 @@
 $(function(){
   $('#slider1').bxSlider({
     auto:true,
-    speed:1500,
+    speed:1000,
     pause:4000,
     captions: true
   });
   $('#slider2').bxSlider({
     auto:true,
-    speed:1500,
+    speed:1000,
     pause:4000,
     captions: true
   });
